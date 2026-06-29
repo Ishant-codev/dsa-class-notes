@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": "/workspaces/dsa-class-notes",
-      "program": "/workspaces/dsa-class-notes/build/Debug/outDebug",
+      "cwd": "/workspaces/dsa-class-notes/basics",
+      "program": "/workspaces/dsa-class-notes/basics/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

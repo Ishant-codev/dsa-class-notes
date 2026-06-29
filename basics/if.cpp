@@ -12,3 +12,7 @@ int main(){
     }
     return 0;
 }
+
+//if()
+//else if()//for 3 or moe conditions 
+//else()
