@@ -10,3 +10,4 @@ int main(){
     else{
         cout<<ch<<" is not a capital letter"<<endl;
     }
+}
