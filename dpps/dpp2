@@ -1,0 +1,142 @@
+Not equal 5
+Equal matches 10
+Inside negative block
+x=0,y=5
+First branch hit p=1 q=20
+Pass status 1, Bonus:5
+Maximim value is 12
+
+
+a = 1, b = 0
+Q11)
+// #include <iostream>
+// using namespace std;
+// int main(){
+//     int a,b;
+//     cin>>a>>b;
+//     if(a==0||b==0){
+//         cout<<"Product is zero";}
+//     else if((a>0 && b>0)||(a<0 && b<0)){
+//         cout<<"Product is positive";}
+//     else{
+//         cout<<"product is negative";}
+    
+// } 
+
+Q12)
+// #include <iostream>
+// using namespace std;
+// int main(){
+//     int a;
+//     cin>>a;
+//     if(a%15==0){
+//         cout<<a<<" div by both 3 and 5";
+//     }
+    
+// }
+
+Q13)
+// #include <iostream>
+// using namespace std;
+// int main(){
+//     int n,S;
+//     cin>>n>>S;
+//     if(S==(n-2)*180){
+//         cout<<"Valid Polygon";
+//     }
+// }
+
+Q14)
+// #include <iostream>
+// using namespace std;
+// int main(){
+//     int a,b;
+//     cin>>a>>b;
+//     if(a%2==0 && b%2==0){
+//         cout<<"none is odd";
+//     }
+//     else if(a%2==0 || b%2==0){
+//         cout<<"one is odd";
+//     }
+//     else{
+//         cout<<"both are odd";
+//     }
+    
+// }
+
+Q16)
+// #include <iostream>
+// using namespace std;
+// int main(){
+//     int n;
+//     cin>>n;
+//     if(n>=65 && n<=90){
+//         cout<<"Uppercase";
+//     }
+//     else if(n>=97 && n<=122){
+//         cout<<"Lowercase";
+//     }
+//     else if(n>=48 && n<=57){
+//         cout<<"digit";
+//     }
+//     else{
+//         cout<<"Special character";
+//     }
+// }
+
+Q17)
+// #include <iostream>
+// using namespace std;
+// int main(){
+//     int n;
+//     cin>>n;
+//     if(n%4==0 && n%100!=0){
+//         cout<<"leap year";
+//     }
+//     else if(n%4==0 && n%100==0 && n%400==0){
+//         cout<<"Leap year";
+//     }
+//     else{
+//         cout<<"not a leap year";
+//     }
+    
+// }
+
+Q18)
+// int main(){
+//     int x1,y1,x2,y2,x3,y3;
+//     cin>>x1>>y1>>x2>>y2>>x3>>y3;
+//     if((y2-y1)*(x3-x2)==(y3-y2)*(x2-x1)){
+//         cout<<"Points are collinear";
+//     } 
+//     else{
+//         cout<<"not collinear";
+//     } 
+// }
+
+Q19)
+// int main(){
+//     int a,b,c;
+//     cin>>a>>b>>c;
+//     if(a+b>c && b+c>a && c+a>b){
+//         if(a==b && b==c){cout<<"equilateral triangle";}
+//         else if(a!=b && b!=c && c!=a){cout<<"scalene";}
+//         else{cout<<"Isosceles triangle";}
+//     }
+//     else{cout<<"invalid";}
+// }
+
+Q20)
+// int main(){
+//     double n;
+//     cin>>n;
+//     if(n<=100){
+//         cout<<"Total bill="<<n*1.50+(0.15*(n*1.50));
+//     }else if(n>100 && n<=300){
+//         cout<<"Total bills="<<150+((n-100)*2.50)+(0.15*(150+((n-100)*2.50)));
+//     }else{
+//         cout<<"Total bill="<<150+((n-100)*2.50)+((n-300)*4)+(0.15*(150+((n-100)*2.50)+((n-300)*4)));
+//     }
+// }
+    
+

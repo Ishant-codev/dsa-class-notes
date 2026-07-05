@@ -60,3 +60,28 @@ iii)2
 // char n;
 // cin>>n;
 // cout<<int(n);
+
+16)
+// int n;
+// cin>>n;
+// cout<<7-(n%7);
+
+17)
+// int a,b;
+// cin>>a>>b;
+// cout<<(a+b-1)/b;
+
+18)
+// int m,v;
+// cin>>m>>v;
+// cout<<0.5*m*v*v;
+
+19)
+// double r;
+// cin>>r;
+// cout<<r/100;
+
+20)
+// double m,d,t;
+// cin>>m>>d>>t;
+// cout<<(m-0.01*d*m)*(1+ t/100);

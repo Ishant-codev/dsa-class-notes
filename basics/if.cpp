@@ -15,4 +15,4 @@ int main(){
 
 //if()
 //else if()//for 3 or moe conditions 
-//else()
+//else()//at last condition if all conditions are false
