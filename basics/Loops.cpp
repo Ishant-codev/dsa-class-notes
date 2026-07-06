@@ -18,3 +18,19 @@ int main(){
 //for(int i=1;i<=10;i++){
 //    cout<<i<<endl;
 //}
+
+//print GP-->1 2 4 8 16...upto n terms
+//int n;
+// cin>>n;
+// int a=1,r=2;
+// for(int i=1;i<=n;i++){
+//     cout<<a<<" ";
+//     a=a*r;
+// }
+
+//print alphabets with their ascii values
+//for(int i=65;i<=90;i++){
+//    cout<<char(i)<<" "<<i<<endl;
+//}
+
+
