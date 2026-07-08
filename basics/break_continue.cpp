@@ -17,3 +17,28 @@
 //     if(i%3==0)continue;//this will skip the multiples of 3
 //     cout<<i<<" "; 
 // }   
+
+// int main(){
+//     int x=4,y=0,z;
+//     while(x>=0){
+//         x--;
+//         y++;
+//         if(x==y)
+//         continue;
+//         else
+//         cout<<x<<" "<<y<<endl;
+//     }
+}//2 2 will be skipped because of continue statement
+//output is 3 1,1 3,0 4,-1 5
+
+// int main(){
+//     int x=4,y=0,z;
+//     while(x>=0){
+//         if(x==y)
+//         break;
+//         else
+//         cout<<x<<" "<<y<<endl;
+//         x--;
+//         y++;
+//     }
+// }//output is 4 0,3 1  as break stops the code
