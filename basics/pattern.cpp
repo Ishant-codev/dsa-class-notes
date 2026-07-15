@@ -237,4 +237,60 @@
 //     }
 // }
 
+//Diamond
+// #include <iostream>
+// using namespace std;
+// int main(){
+//     int n;
+//     cin>>n;
+//     int nsp=n-1,nst=1;
+//     for(int i=1;i<=2*n-1;i++){
+//         for(int j=1;j<=nsp;j++){
+//             cout<<" ";
+//         }
+//         for(int j=1;j<=nst;j++){
+//             cout<<"*";
+//         }
+//         if(i<n){
+//             nsp--;
+//             nst+=2;
+//         }
+//         else{
+//             nsp++;
+//             nst-=2;
+//         }
+//         cout<<endl;
+//     }
+        
+// }
+
+//bridge - alag se 2n-1 stars ko print kro in first row
+#include <iostream>
+using namespace std;
+int main(){
+    int n;
+    cin>>n;
+    //First row (2n-1 stars)
+    for(int i=1;i<=2*n-1;i++){
+        cout<<"*";
+    }
+    cout<<endl;
+    // 1 loop me 3 loop
+    n--;
+    for(int i=1;i<=n-1;i++){
+        for(int j=1;j<=n+1-i;j++){//stars (hori. flipped triangle)
+            cout<<"*";
+        }
+        for(int j=1;j<=2*i-1;j++){// spaces (odd triangle)
+            cout<<" ";
+        }
+        for(int j=1;j<=n+1-i;j++){//stars (hori. flipped triangle)
+            cout<<"*";
+        }
+        cout<<endl;
+    }
+
+}
+
+
 
